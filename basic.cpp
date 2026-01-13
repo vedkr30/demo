@@ -6,7 +6,7 @@ int main()
 {
     int i,v=0,j=0;
     char s[100],a[100],ch;
-    cout<<"Enter a sentence:\n";
+    cout<<"Enter a sentence with vowels:\n";
     fgets(s,100,stdin);
     s[strcspn(s,"\n")]='\0';
     
